@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade tabela</title>
+
+    <style>
+        table {
+
+            width: 50%;
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        td {
+            border: 1px solid;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: violet;
+            font-size: 40px;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: indigo;
+            font-size: 50px;
+            background-color: pink;
+        }
+
+        footer {
+            background-color: pink;
+            margin: 20px;
+        }
+    </style>
+</head>
+<header>
+    <h1>Tabelas html</h1>
+</header>
+<br>
+
+<body>
+    <main>
+
+        <h2>Primeira tabela</h2>
+        <table>
+            <tbody></tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+
+
+            <tr align="center">
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr style="text-align: end;">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            </tbody>
+
+        </table>
+        <br>
+        <h2>Segunda tabela</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">4</td>
+
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <br>
+            </tbody>
+        </table>
+        <br>
+        <h2>Terceira tabela</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td rowspan="4" align="center">3</td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">4</td>
+
+                </tr>
+                <tr>
+
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <br>
+    <tfoot>
+        <footer>
+            <a target="_blank" href="http://www.Growdev.com.br">Growdev 2023</a>
+
+        </footer>
+    </tfoot>
+</body>
+
+</html>
