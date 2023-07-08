@@ -58,5 +58,26 @@ h2 {
     height: 100px;
 }
 .tabela3{
+    border: double 1px;
+    border-color: dimgray;
+    margin: 25px auto;
+    width: 300px;
+    height: 300px;
+}
+.tabela3 thead tr td {
+    border: double 1px;
+    border-color: dimgray;
+    height: 50px;
+}
 
+.tabela3 tbody tr td {
+    border: double 1px;
+    border-color: dimgray;
+    height: 50px;
+}
+.tabela3 tfoot tr td {
+
+    border: double 1px;
+    border-color: dimgray;
+    height: 50px;
 }
